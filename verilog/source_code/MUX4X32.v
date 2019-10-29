@@ -2,7 +2,7 @@ module MUX4X32(a0,a1,a2,a3,s,y);
     input [31:0] a0,a1,a2,a3;
     input s;
     output [31:0]y;
-    function [31:0 ]select;
+    function [31:0]select;
         input [31:0]a0,a1,a2,a3;
         input s;
         case (s)
@@ -12,5 +12,5 @@ module MUX4X32(a0,a1,a2,a3,s,y);
             2'b11:select = a3; 
         endcase
     endfunction
-    assign y = select(a0,a1,a2,a3,s,y);
+    assign y = select(a0,a1,a2,a3,s);
 endmodule
