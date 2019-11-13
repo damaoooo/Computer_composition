@@ -1,1 +1,0 @@
--wto "cf8e5efdc59042f09d878dee3397905c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "door_simulation_behav" "xil_defaultlib.door_simulation" "xil_defaultlib.glbl" -log "elaborate.log" 
