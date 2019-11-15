@@ -86,7 +86,7 @@ module CLA_4(x,y,cin,s,cout);
     not n3 (ng[3],g[3]);
     //cout0
     and cout00 (t01,p[0],cin);
-    or cout01 (couts[0],g[0],t1);
+    or cout01 (couts[0],g[0],t01);
     //cout1
     and cout10 (t11,p[1],g[0]);
     and cout11 (t12,p[1],p[0],cin);
@@ -131,7 +131,7 @@ module ADDSUB_32(X,Y,Sub,S,Cout);
     input Sub;
     output [31:0]S;
     output Cout;
-    CLA_32 adder0(X,Y^{16{Sub}},Sub,S,Cout);
+    CLA_32 adder0(X,Y^{32{Sub}},Sub,S,Cout);
 endmodule
 
 module AND32(X,Y,S);
