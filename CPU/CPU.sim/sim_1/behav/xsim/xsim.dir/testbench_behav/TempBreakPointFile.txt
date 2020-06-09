@@ -1,0 +1,4 @@
+Breakpoint File Version 1.0
+33 true C:/Users/周半仙/Desktop/计组/Computer_composition/CPU/CPU.srcs/sim_1/new/testbench.v
+43 true C:/Users/周半仙/Desktop/计组/Computer_composition/CPU/CPU.srcs/sources_1/new/CPU.v
+59 true C:/Users/周半仙/Desktop/计组/Computer_composition/CPU/CPU.srcs/sources_1/new/Instmem.v
